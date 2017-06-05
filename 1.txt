@@ -19,4 +19,15 @@ Learning : Git - (MAC)
 15, 同时查看staged和unstage的状态: git diff HEAD
 
 二：回到以前的版本
-1, 改了一个版本还是属于上一个未完成版本: git commit —amend —-no-edit
+1, 改了一个版本还是属于上一个未完成版本: git commit —-amend —-no-edit
+2, 从staged状态返回到modified的状态 (即：add之后没有commit)： git reset 1.txt
+3, 回到上一个状态（已经commit之后): git reset —-hard HEAD
+4, 回到上上一个状态（已经commit之后): git reset —-hard HEAD^      前一百状态HEAD~100
+5, 使用ID号码回到某一个状态
+
+三：回到未来
+1, 可以看到每一步的变化: git reflog
+2, 回到未来 git reset —ID号
+
+四：针对单个文件回到过去
+1，git checkout ID — 1.py

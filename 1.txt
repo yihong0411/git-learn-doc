@@ -31,3 +31,12 @@ Learning : Git - (MAC)
 
 四：针对单个文件回到过去
 1，git checkout ID — 1.py
+
+五：分支管理
+1，查看分支图: git log —online —-graph
+2, 建立一个分支: git branch dev
+3, 查看当前位置: git branch
+4, 转换到分支: git checkout dev(必须先回到主分支 git checkout master)
+5, 删除分支： git branch -d dev
+
+另法：用checkout建立分支 git checkout -b dev

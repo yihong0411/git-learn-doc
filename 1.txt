@@ -1,0 +1,14 @@
+Learning : Git - (MAC)
+1, 简历文档(在主目录下): mkdir gitTUT
+2, 设置修改者 : git config —global user.name “yihong”
+              git config —global user.email “…@qq.com”
+3, 显示修改者 : git config user.name
+              git config user.email
+4, 初始化被管理文件夹:  git init
+5, 建立文件: touch 1.txt
+6, 加入文件: git add 1.txt
+7, 查看状态: git status
+8, 修改文件: 修改完后查看状态为 modified
+9, 在modified状态后要提交: git add 1.txt
+10, add之后，提交文件: git commit -m “change 1”
+

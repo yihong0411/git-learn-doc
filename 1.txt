@@ -49,3 +49,9 @@ Learning : Git - (MAC)
 3, 取消远程连接: git remote rm origin
 4, 进行更新后，git commit -am “change 5”, 再推到管理库就行了 git push -u origin master
 
+七: 删除Github文件
+1, 在本地完全删除:git rm --cached 1.py
+2, 提交:git commit -m "delete 1.py"
+3, 提交到Github: git push origin
+
+

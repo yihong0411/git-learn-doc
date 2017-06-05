@@ -1,4 +1,5 @@
 Learning : Git - (MAC)
+一：查看
 1, 简历文档(在主目录下): mkdir gitTUT
 2, 设置修改者 : git config —global user.name “yihong”
               git config —global user.email “…@qq.com”
@@ -12,4 +13,10 @@ Learning : Git - (MAC)
 9, 在modified状态后要提交: git add 1.txt
 10, add之后，提交文件: git commit -m “change 1”
 11, 查看被commit后的状态 git log
-12, 查看两次文档的不同 git diff
+12, 加入所有的文件: git add . 
+13, 查看两次文档的不同(unstage的状态与上一个状态的对比) git diff
+14, 查看staged的状态和上一个commit的状态的区别 git diff —cached
+15, 同时查看staged和unstage的状态: git diff HEAD
+
+二：回到以前的版本
+1, 改了一个版本还是属于上一个未完成版本: git commit —amend —-no-edit

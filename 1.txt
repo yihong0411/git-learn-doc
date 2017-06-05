@@ -40,3 +40,12 @@ Learning : Git - (MAC)
 5, 删除分支： git branch -d dev
 另法：用checkout建立分支 git checkout -b dev
 6, merge分支: git merge —no-ff -m “keep merge info” dev
+7, rebase分支: 
+
+
+六：GitHub
+1, 远程连接: git remote add origin https://github.com/……
+2, 推到管理库: git push -u origin master
+3, 取消远程连接: git remote rm origin
+4, 进行更新后，git commit -am “change 5”, 再推到管理库就行了 git push -u origin master
+

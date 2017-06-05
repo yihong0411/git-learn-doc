@@ -12,3 +12,4 @@ Learning : Git - (MAC)
 9, 在modified状态后要提交: git add 1.txt
 10, add之后，提交文件: git commit -m “change 1”
 11, 查看被commit后的状态 git log
+12, 查看两次文档的不同 git diff

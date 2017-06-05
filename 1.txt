@@ -38,5 +38,5 @@ Learning : Git - (MAC)
 3, 查看当前位置: git branch
 4, 转换到分支: git checkout dev(必须先回到主分支 git checkout master)
 5, 删除分支： git branch -d dev
-
 另法：用checkout建立分支 git checkout -b dev
+6, merge分支: git merge —no-ff -m “keep merge info” dev
